@@ -23,7 +23,7 @@ body {
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
   grid-template-areas:
-    "header      header     header"
-    "navigation  main       ."
-    "footer      .          .";
+    "header"
+    "main"
+    "footer";
 }
