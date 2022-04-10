@@ -23,7 +23,7 @@ body {
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
   grid-template-areas:
-    "masthead    masthead"
+    "masthead    "
     "navigation  Antarctica"
     "copyright   copyright";
 }
