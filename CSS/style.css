@@ -9,10 +9,10 @@ header {
 
 #Intro{
   background-color: rgba(251, 0, 0, 0.5);
-  border: 1px dashed rgb(69,105,159):
+  border: 1px solid rgb(69,105,159):
 }
 
-section {
+s/ection {
   margin-bottom: 16px;
   padding: 16px;
   background-color: rgba(231,209,75,0.15);
