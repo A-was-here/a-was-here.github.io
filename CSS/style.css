@@ -1,3 +1,14 @@
 body {
   font-family: "Verdana", "Arial", sans-serif;
 }
+
+body {
+  margin: 0 auto;
+  max-width: 900px;
+  min-width: 600px;
+}
+
+#Intro{
+  background-color: rgba(251, 0, 0, 0.5);
+  border: 1px dashed rgb(69,105,159):
+}
