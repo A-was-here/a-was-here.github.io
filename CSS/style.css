@@ -8,13 +8,13 @@ body {
 section:nth-child(even){
   background-color: #ccc;
   border: 1px solid rgb(69,105,159);
-  padding: 5em;
+  padding: 3em;
 }
 
 section:nth-child(odd){
   background-color: #fff;
   border: 1px solid rgb(69,105,159);
-  padding: 5em;
+  padding: 3em;
 }
 
 /*
