@@ -5,7 +5,7 @@ body {
   grid-template-columns: 1fr 2fr;
 }
 
-body:nth-child(1n+2){
+body:nth-child(1n+3){
   background-color: #ccc;
 }
 
