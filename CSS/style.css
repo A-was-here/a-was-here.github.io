@@ -5,5 +5,5 @@ body {
 }
 
 body:nth-child(odd){
-  background:#ddd
+  background:#ddd;
 }
