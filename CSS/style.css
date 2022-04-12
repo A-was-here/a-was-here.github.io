@@ -17,13 +17,9 @@ section:nth-child(odd){
   padding: 3em;
 }
 
-img{
+#flo{
   float: right;
   margin-left: 10px;
-}
-
-.clear{
-  clear: right;
 }
 
 /*
