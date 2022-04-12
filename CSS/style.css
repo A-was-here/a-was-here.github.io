@@ -2,7 +2,6 @@ body {
   font-family: "Verdana", "Arial", sans-serif;
   padding:10em;
   background: #eee;
-  grid-template-columns: 1fr 2fr;
 }
 
 section:nth-child(even){
@@ -17,7 +16,7 @@ section:nth-child(odd){
   padding: 3em;
 }
 
-#flo{
+img{
   float: right;
   margin-left: 10px;
 }
@@ -30,8 +29,10 @@ section:nth-child(odd){
 */
 
 header {
-  background-color: rgba(230,255,255);
+  background-color: rgb(230,255,255);
   border: 5px solid rgb(69,105,159);
   margin-bottom: 16px;
   padding: 16px;
+  display:grid;
+  grid-template-columns: 50% 50%;
 }
