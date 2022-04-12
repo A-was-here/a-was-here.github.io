@@ -6,7 +6,7 @@ body {
 }
 
 body:nth-child(1n+2){
-  background-color: #eee;
+  background-color: #ccc;
 }
 
 #wrapper{
