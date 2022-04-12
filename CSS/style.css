@@ -44,7 +44,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(255,155,0);
+  color: rgb(255,0,0);
 }
 
 a:hover {
@@ -52,5 +52,5 @@ a:hover {
 }
 
 a:active {
-  color: yellow;
+  color: rgb(255,0,0);
 }
