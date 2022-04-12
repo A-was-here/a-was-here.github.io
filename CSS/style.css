@@ -9,6 +9,6 @@ body {
   padding:3em;
 }
 
-#wrapper:nth-child(odd){
+body:nth-child(odd){
   background: rgba(100,155,155)
 }
