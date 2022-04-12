@@ -1,6 +1,7 @@
 body {
   font-family: "Verdana", "Arial", sans-serif;
   padding:10em;
+  background: #eee;
   grid-template-columns: 1fr 2fr;
 }
 
