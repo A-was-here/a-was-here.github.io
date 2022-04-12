@@ -1,7 +1,7 @@
 body {
   font-family: "Verdana", "Arial", sans-serif;
   padding:10em;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 1fr 2fr;
 }
 
 #wrapper{
