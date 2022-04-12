@@ -17,6 +17,11 @@ section:nth-child(odd){
   padding: 3em;
 }
 
+img{
+  float: right;
+  margin-left: 10px;
+}
+
 /*
 #wrapper{
   background-color: rgba(230,255,255);
