@@ -4,6 +4,6 @@ body {
   padding:1em;
 }
 
-body:nth-child(odd){
+geo:nth-child(odd){
   background:#ddd;
 }
