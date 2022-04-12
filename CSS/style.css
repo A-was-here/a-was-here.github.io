@@ -5,8 +5,13 @@ body {
   grid-template-columns: 1fr 2fr;
 }
 
-section:nth-child{
+section:nth-child(even){
   background-color: #ccc;
+  border: 1px solid rgb(69,105,159);
+}
+
+section:nth-child(odd){
+  background-color: #fff;
   border: 1px solid rgb(69,105,159);
 }
 
