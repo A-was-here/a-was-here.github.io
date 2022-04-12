@@ -3,3 +3,8 @@ body {
   background:#eee;
   padding:10em;
 }
+
+.wrapper div:nth-child(odd){
+  background-color: rgba(230,255,255);
+  border: 5px solid rgb(69,105,159);
+}
