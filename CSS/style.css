@@ -1,7 +1,7 @@
 body {
   font-family: "Verdana", "Arial", sans-serif;
   padding:10em;
-  background: #eee; 
+  background: #eee;
 }
 
 section:nth-child(even){
