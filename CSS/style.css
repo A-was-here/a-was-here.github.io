@@ -21,9 +21,9 @@ img{
   margin-left: 10px;
 }
 
-.grid-container {
+.grid {
   display: grid;
-  grid-template-rows: 30% 70%;
+  grid-template-columns: auto auto;
 }
 
 /*
