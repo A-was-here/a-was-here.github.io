@@ -22,3 +22,9 @@ header {
   border: 5px solid rgb(69,105,159);
   margin-bottom: 16px;
   padding: 16px;
+
+#wrapper{
+    background-color: rgba(230,255,255);
+    border: 5px solid rgb(69,105,159);
+    padding:3em;
+}
