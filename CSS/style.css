@@ -3,8 +3,12 @@ body {
   padding:10em;
 }
 
-div:nth-child(1n+2){
+#wrapper{
   background-color: rgba(230,255,255);
   border: 5px solid rgb(69,105,159);
   padding:3em;
+}
+
+#wrapper:nth-child(odd){
+  background: rgba(100,155,155)
 }
