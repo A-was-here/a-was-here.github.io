@@ -1,7 +1,5 @@
 body {
   font-family: "Verdana", "Arial", sans-serif;
   background:#eee;
-  padding:1em;
-  body:nth-child(odd){
-    background:#ddd;
+  padding:10em;
 }
