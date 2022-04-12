@@ -8,18 +8,21 @@ body {
 section:nth-child(even){
   background-color: #ccc;
   border: 1px solid rgb(69,105,159);
+  padding: 5em;
 }
 
 section:nth-child(odd){
   background-color: #fff;
   border: 1px solid rgb(69,105,159);
+  padding: 5em;
 }
 
+/*
 #wrapper{
   background-color: rgba(230,255,255);
   border: 5px solid rgb(69,105,159);
-  margin: 5em;
 }
+*/
 
 header {
   background-color: rgba(230,255,255);
