@@ -6,7 +6,7 @@ body {
 }
 
 section:nth-child(even){
-  background-color: #ccc;
+  background-color: #cde;
   border: 1px solid rgb(69,105,159);
   padding: 3em;
 }
