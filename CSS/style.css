@@ -41,13 +41,14 @@ h3{
   text-indent: -30px;
 }
 
-img {
+figure {
   float: right;
   margin-left: 10px;
   max-width: 100%;
   height: auto;
-  border: 1px dashed;
   caption-side: bottom;
+  border: 0.5px solid;
+  text-align: center;
 }
 
 
@@ -98,4 +99,8 @@ a:hover {
 
 a:active {
   color: rgb(0,150,100);
+}
+
+table, th, td{
+  border: 1px solid;
 }
