@@ -17,7 +17,7 @@ body {
   font-family: "Verdana", "Arial", sans-serif;
   padding:8em;
   padding-top: 1px;
-  background: #eee;
+  background: rgba(230,255,255);
   color: rgb(70,70,70)
 }
 
@@ -44,8 +44,10 @@ h3{
 img {
   float: right;
   margin-left: 10px;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
+  border: 1px dashed;
+  caption-side: bottom;
 }
 
 
@@ -75,14 +77,10 @@ nav li a:link {
 .grid {
   display: grid;
   grid-template-columns: 160px auto;
-  background-color: rgba(230,255,255);
   border: 1px solid rgb(69,105,159);
+  background: #eee;
 }
 
-.blah {
-  position:relative;
-  top: 200px;
-}
 
 /* default, link, visited, hover, active */
 
