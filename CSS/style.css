@@ -1,9 +1,8 @@
 header {
   background-color: rgb(255,255,255);
-  background-image: url("../images/antarctica-byrd-glacier.jpg");
+  background-image: url("../images/antarctica-byrd-glacier-blur.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: multiply;
   border: 5px solid rgb(69,105,159);
   border-radius: 2px;
   margin-bottom: 0px;
