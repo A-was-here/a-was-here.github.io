@@ -37,6 +37,12 @@ section:nth-child(odd){
   overflow: visible;
 }
 
+h3{
+  font-size: 20px;
+  text-decoration: underline;
+  text-indent: -30px;
+}
+
 img {
   float: right;
   margin-left: 10px;
@@ -50,8 +56,10 @@ nav {
   border-radius: 20px;
   margin-bottom: 0px;*/
   position: fixed;
+  left: -20px;
   color: rgb(70,70,70);
   font-weight: bold;
+  text-align: right;
 }
 
 nav li{
@@ -97,7 +105,13 @@ nav li a:link {
   grid-template-columns: 20% 80%;
   background-color: rgba(230,255,255);
   border: 1px solid rgb(69,105,159);
+  min-width: 200px;
 }
+
+/*.blah img {
+  min-width: 200px;
+  align-self: flex-end;
+}*/
 
 /*
 #wrapper{
