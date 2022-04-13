@@ -31,7 +31,7 @@ section:nth-child(even){
 }
 
 section:nth-child(odd){
-  background-color: #fff;
+  background-color: rgb(240,240,240);
   border: 1px solid rgb(69,105,159);
   padding: 3em;
   overflow: visible;
@@ -48,17 +48,21 @@ nav {
   /* background-color: #fff;
   border: 1px solid rgb(69,105,159);
   border-radius: 20px;
-  margin-bottom: 0px;
-  background-color: #fff;*/
+  margin-bottom: 0px;*/
   position: fixed;
-  font-size: 18px
-  display: block;
+  color: rgb(70,70,70);
+  font-weight: bold;
+}
+
+nav li{
+  list-style: none;
+  font-size: 16px;
 }
 
 nav li a:link {
   color: rgb(70,70,70);
   font-weight: bold;
-  align-content: stretch;
+  background-color: #fff;
 }
 
 /*
@@ -91,6 +95,8 @@ nav li a:link {
 .grid {
   display: grid;
   grid-template-columns: 20% 80%;
+  background-color: rgba(230,255,255);
+  border: 1px solid rgb(69,105,159);
 }
 
 /*
