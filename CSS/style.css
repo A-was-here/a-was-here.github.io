@@ -1,10 +1,12 @@
 header {
   background-color: rgb(230,255,255);
   border: 5px solid rgb(69,105,159);
+  border-radius: 20px;
   margin-bottom: 0px;
   padding: 16px;
   text-align: center;
   font-size: 30px;
+  overflow: auto;
 }
 
 body {
@@ -19,52 +21,69 @@ section:nth-child(even){
   background-color: #fff;
   border: 1px solid rgb(69,105,159);
   padding: 3em;
+  overflow: visible;
 }
 
 section:nth-child(odd){
   background-color: #fff;
   border: 1px solid rgb(69,105,159);
   padding: 3em;
+  overflow: visible;
 }
 
 img{
   float: right;
   margin-left: 10px;
+  max-width: 400px;
+  overflow: scroll;
 }
 
 nav {
   /* background-color: #fff; */
   border: 1px solid rgb(69,105,159);
+  border-radius: 20px;
   margin-bottom: 0px;
+  position: fixed;
+  overflow: auto;
+  background-color: #fff;
+  text-align: left;
+  margin-right: 11px;
+  color: blue;
+  font-size: 18px;
   /* padding: 16px; */
 }
 
-
+/*
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: rgb(255,255,255);
+
 }
+
 
 nav li {
   float: left;
 }
 
+
 nav li a:link {
   display: block;
   background-color: inherit;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: right;
+  margin-right: 11px;
   color: blue;
   font-size: 18px;
+  position: inherit;
 }
+*/
 
-/* .grid {
+.grid {
   display: grid;
   grid-template-columns: 20% 80%;
-} */
+}
 
 /*
 #wrapper{
