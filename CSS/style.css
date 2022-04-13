@@ -9,10 +9,11 @@ header {
   padding: 16px;
   text-align: center;
   font-size: 30px;
-  overflow: auto;
+  overflow:auto;
   color: black;
   text-shadow: 0px 0px 50px white;
-  text-emphasis:
+  -min-width: 851px;
+  -position:fixed;
 }
 
 body {
@@ -50,13 +51,14 @@ img {
   height: auto;
 }
 
-nav {
+
+.grid nav {
   /* background-color: #fff;
   border: 1px solid rgb(69,105,159);
-  border-radius: 20px;
-  margin-bottom: 0px;*/
+  border-radius: 20px;*/
   position: fixed;
-  left: -20px;
+  left: -10px;
+  top: 300px;
   color: rgb(70,70,70);
   font-weight: bold;
   text-align: right;
@@ -64,7 +66,8 @@ nav {
 
 nav li{
   list-style: none;
-  font-size: 16px;
+  font-size: auto;
+  background-color: #fff;
 }
 
 nav li a:link {
@@ -73,52 +76,36 @@ nav li a:link {
   background-color: #fff;
 }
 
-/*
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(255,255,255);
-
-}
-
-
-nav li {
-  float: left;
-}
-
-
-nav li a:link {
-  display: block;
-  background-color: inherit;
-  text-align: right;
-  margin-right: 11px;
-  color: blue;
-  font-size: 18px;
-  position: inherit;
-}
-*/
-
 .grid {
   display: grid;
   grid-template-columns: 20% 80%;
   background-color: rgba(230,255,255);
   border: 1px solid rgb(69,105,159);
-  min-width: 200px;
+  min-width:850px;
+  position:static;
+}
+
+div#side {
+  -position:relative;
 }
 
 /*.blah img {
   min-width: 200px;
   align-self: flex-end;
-}*/
-
-/*
-#wrapper{
-  background-color: rgba(230,255,255);
-  border: 5px solid rgb(69,105,159);
 }
-*/
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  background-color: rgb(255,255,255);
+
+}
+
+.side{
+  position: fixed;
+}*/
 
 /* default, link, visited, hover, active */
 
