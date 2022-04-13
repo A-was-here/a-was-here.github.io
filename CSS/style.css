@@ -11,7 +11,7 @@ header {
 
 body {
   font-family: "Verdana", "Arial", sans-serif;
-  padding:8em;
+  padding:0em;
   padding-top: 1px;
   background: #eee;
   color: rgb(70,70,70)
@@ -31,26 +31,27 @@ section:nth-child(odd){
   overflow: visible;
 }
 
-img{
+img {
   float: right;
   margin-left: 10px;
-  max-width: 400px;
-  overflow: scroll;
+  max-width: 100%;
+  height: auto;
 }
 
 nav {
-  /* background-color: #fff; */
+  /* background-color: #fff;
   border: 1px solid rgb(69,105,159);
   border-radius: 20px;
   margin-bottom: 0px;
+  background-color: #fff;*/
   position: fixed;
-  overflow: auto;
-  background-color: #fff;
-  text-align: left;
-  margin-right: 11px;
-  color: blue;
   font-size: 18px;
-  /* padding: 16px; */
+}
+
+nav li a:link {
+  color: rgb(70,70,70);
+  font-weight: bold;
+  align-content: stretch;
 }
 
 /*
