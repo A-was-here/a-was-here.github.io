@@ -12,8 +12,6 @@ header {
   overflow:auto;
   color: black;
   text-shadow: 0px 0px 50px white;
-  -min-width: 851px;
-  -position:fixed;
 }
 
 body {
@@ -28,18 +26,18 @@ section:nth-child(even){
   background-color: #fff;
   border: 1px solid rgb(69,105,159);
   padding: 3em;
-  overflow: visible;
+  overflow: auto;
 }
 
 section:nth-child(odd){
   background-color: rgb(240,240,240);
   border: 1px solid rgb(69,105,159);
   padding: 3em;
-  overflow: visible;
+  overflow: auto;
 }
 
 h3{
-  font-size: 20px;
+  font-size: 35px;
   text-decoration: underline;
   text-indent: -30px;
 }
@@ -52,13 +50,10 @@ img {
 }
 
 
-.grid nav {
-  /* background-color: #fff;
-  border: 1px solid rgb(69,105,159);
-  border-radius: 20px;*/
+.grid nav ul {
   position: fixed;
-  left: -10px;
-  top: 300px;
+  left: -16px;
+  top: 295px;
   color: rgb(70,70,70);
   font-weight: bold;
   text-align: right;
@@ -67,45 +62,25 @@ img {
 nav li{
   list-style: none;
   font-size: auto;
-  background-color: #fff;
+  padding: 15px;
+  margin: -13px;
 }
 
 nav li a:link {
   color: rgb(70,70,70);
   font-weight: bold;
-  background-color: #fff;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 160px auto;
   background-color: rgba(230,255,255);
   border: 1px solid rgb(69,105,159);
-  min-width:850px;
-  position:static;
 }
 
 div#side {
   -position:relative;
 }
-
-/*.blah img {
-  min-width: 200px;
-  align-self: flex-end;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: scroll;
-  background-color: rgb(255,255,255);
-
-}
-
-.side{
-  position: fixed;
-}*/
 
 /* default, link, visited, hover, active */
 
