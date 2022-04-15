@@ -20,7 +20,7 @@ body {
   padding:8em;
   padding-top: 0px;
   background: rgba(230,255,255);
-  color: rgb(70,70,70)
+  color: rgb(70,70,70);
 }
 
 section:nth-child(even){
@@ -86,9 +86,6 @@ nav li a:link {
   background: #eee;
   max-width: 840px;
 }
-
-
-/* default, link, visited, hover, active */
 
 a:link {
   color: rgb(0,0,255);
