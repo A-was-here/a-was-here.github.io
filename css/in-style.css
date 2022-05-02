@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  padding: 3em;
+  padding-top: auto;
+  background: rgba(230,255,255);
+  color: rgb(70,70,70);
+}
+
+section {
+  background-color: #fff;
+  border: 1px solid rgb(69,105,159);
+  padding: 0.5em;
+  overflow: auto;
+  font-size: 32px;
+  text-align: center;
+}
+
+/*
+
+.grid {
+  display: grid;
+  -grid-template-columns: 160px auto;
+  border: 1px solid rgb(69,105,159);
+  background: #eee;
+  -max-width: 840px;
+  align-items: center;
+}
+
+-a {
+  list-style: none;
+  font-size: auto;
+  padding: 10px;
+  background-color: #fff;
+  border: 5px;
+  border-color: black;
+}
+
+*/
