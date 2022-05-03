@@ -91,6 +91,7 @@ nav li {
   padding: 5px;
   overflow: hidden;
   display:inline-block;
+  background-color: rgb(50,50,50);
 }
 
 nav li a {
