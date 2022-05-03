@@ -2,7 +2,16 @@
 
 .wrap {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr auto;
+  background-color: rgb(50,50,50);
+}
+
+.main {
+  position: relative;
+  -left: 160px;
+  -margin-right: 140px;
+  -max-width: 700px;
+  background-color: #fff;
 }
 
 body {
@@ -13,36 +22,37 @@ body {
 
 header {
   border-style: groove;
-  max-width: 8.5in;
+  -max-width: 8.5in;
   -margin-left: 1in;
   -margin-right: 1in;
   background-color: #fff;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  -border-top-right-radius: 10px;
+  -border-top-left-radius: 10px;
 }
 
 h1, h2 {
-  margin-left: 1in;
-  margin-right: 1in;
+  margin-left: 50px;
+  margin-right: 50px;
   background-color: #fff;
 }
 
 div {
   border: 1px solid;
-  max-width: 8.5in;
+  -max-width: 8.5in;
   -margin-left: 1in;
   -margin-right: 1in;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #fff;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  -padding-top: 20px;
+  -padding-bottom: 20px;
+  -background-color: #fff;
+  -border-bottom-right-radius: 10px;
+  -border-bottom-left-radius: 10px;
 }
 
 section {
-  margin-left: 1in;
-  margin-right: 1in;
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: "Roboto", "Arial", sans-serif;
+  overflow:visible;
 }
 
 section p {
@@ -57,23 +67,26 @@ section li a:visited {
 }
 
 section li {
-  list-style-type: square;
-  max-width: 500px;
+  list-style-type: none;
+  -max-width: 500px;
   padding: 3px;
   -list-style-position: outside;
 }
 
 nav {
   background-color: rgb(50,50,50);
-  max-width: 7.52in;
+  position: sticky;
+  overflow: scroll;
+  -max-width: 7.52in;
   -margin-left: 1in;
-  padding-left: 1in;
+  -padding-left: 1in;
 }
 
 nav li {
-  list-style: none;
-  border-left: 0.5px dashed rgb(255,255,255);
-  padding: 5px;
+  -list-style: none;
+  border: 0.5px dashed rgb(255,255,255);
+  -padding: 5px;
+  overflow: scroll;
   -display:inline-block;
 }
 
@@ -85,6 +98,14 @@ nav li:hover {
   background-color: grey;
 }
 
+
+footer li {
+  list-style: none;
+  display:inline-flex;
+}
+
+/*
+
 footer {
   margin-top: 10px;
   max-width: 8.5in;
@@ -95,12 +116,6 @@ footer {
   -margin-right: 1in;
 }
 
-footer li {
-  list-style: none;
-  display:inline-flex;
-}
-
-/*
 ul {
   list-style: none;
   display: inline-block;
