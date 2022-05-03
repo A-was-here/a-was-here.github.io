@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .wrap {
-  display: grid;
-  grid-template-columns: 1fr auto;
   background-color: rgb(50,50,50);
 }
 
 .main {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
   position: relative;
   -left: 160px;
   -margin-right: 140px;
@@ -14,6 +14,10 @@
   background-color: #fff;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 body {
   color: rgb(70,70,70);
   background-color: rgb(240,240,240);
@@ -32,7 +36,7 @@ header {
 
 h1, h2 {
   margin-left: 50px;
-  margin-right: 50px;
+  -margin-right: 50px;
   background-color: #fff;
 }
 
@@ -50,7 +54,7 @@ div {
 
 section {
   margin-left: 50px;
-  margin-right: 50px;
+  -margin-right: 50px;
   font-family: "Roboto", "Arial", sans-serif;
   overflow:visible;
 }
@@ -75,7 +79,7 @@ section li {
 
 nav {
   background-color: rgb(50,50,50);
-  position: sticky;
+  display: inline-flex;
   overflow: scroll;
   -max-width: 7.52in;
   -margin-left: 1in;
@@ -85,8 +89,8 @@ nav {
 nav li {
   -list-style: none;
   border: 0.5px dashed rgb(255,255,255);
-  -padding: 5px;
-  overflow: scroll;
+  padding: 5px;
+  overflow: hidden;
   -display:inline-block;
 }
 
