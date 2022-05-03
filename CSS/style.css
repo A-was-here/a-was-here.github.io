@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*
+font-face {
+  src: url(../roboto/roboto-blackitalic.ttf);
+  font-family: "rob";
+}
+*/
+
 header {
   background-color: rgb(255,255,255);
   background-image: url("../images/antarctica-byrd-glacier-blur.jpg");
@@ -13,6 +22,7 @@ header {
   text-shadow: 0px 0px 50px white;
   min-width: auto;
   max-width: 840px;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 body {
@@ -29,6 +39,7 @@ section:nth-child(even){
   padding: 3em;
   overflow: auto;
   font-size: 14px;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 section:nth-child(odd){
@@ -64,6 +75,7 @@ figcaption {
   font-weight: bold;
   text-align: right;
   overflow: auto;
+  font-family: "roboto", "Arial", sans-serif;
 }
 
 nav li {
