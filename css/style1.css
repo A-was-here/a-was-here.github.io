@@ -73,13 +73,12 @@ section li a:visited {
 section li {
   list-style-type: none;
   -max-width: 500px;
-  padding: 3px;
+  -padding: 3px;
   -list-style-position: outside;
 }
 
 nav {
   background-color: rgb(50,50,50);
-  display: inline-flex;
   overflow: scroll;
   -max-width: 7.52in;
   -margin-left: 1in;
@@ -88,10 +87,10 @@ nav {
 
 nav li {
   -list-style: none;
-  border: 0.5px dashed rgb(255,255,255);
+  border-left: 0.5px dashed rgb(255,255,255);
   padding: 5px;
   overflow: hidden;
-  -display:inline-block;
+  display:inline-block;
 }
 
 nav li a {
