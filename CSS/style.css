@@ -1,120 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/*
-font-face {
-  src: url(../roboto/roboto-blackitalic.ttf);
-  font-family: "rob";
-}
-*/
-
-header {
-  background-color: rgb(255,255,255);
-  background-image: url("../images/antarctica-byrd-glacier-blur.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 5px solid rgb(69,105,159);
-  border-radius: 2px;
-  padding: 15px;
-  text-align: center;
-  font-size: 30px;
-  overflow:auto;
-  color: rgb(10,10,10);
-  text-shadow: 0px 0px 50px white;
-  min-width: auto;
-  max-width: 840px;
-  font-family: "Roboto", "Arial", sans-serif;
+.wrap {
+  max-width: 8.54in;
+  margin: auto;
 }
 
 body {
-  font-family: "Roboto", "Arial", sans-serif;
-  padding:8em;
-  padding-top: 0px;
-  background: rgba(230,255,255);
   color: rgb(70,70,70);
-}
-
-section:nth-child(even){
-  background-color: #fff;
-  border: 1px solid rgb(69,105,159);
-  padding: 3em;
-  overflow: auto;
-  font-size: 14px;
+  background-color: rgb(240,240,240);
   font-family: "Roboto", "Arial", sans-serif;
 }
 
-section:nth-child(odd){
-  background-color: rgb(248,248,248);
-  border: 1px solid rgb(69,105,159);
-  padding: 3em;
-  overflow: auto;
-  font-size: 14px;
+header {
+  border-style: groove;
+  max-width: 8.5in;
+  -margin-left: 1in;
+  -margin-right: 1in;
+  background-color: #fff;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
-h3{
-  font-size: 30px;
-  text-decoration: underline;
-  text-indent: -30px;
+h1, h2 {
+  margin-left: 1in;
+  margin-right: 1in;
+  background-color: #fff;
 }
 
-img {
-  float: right;
-  margin-left: 10px;
-  max-width: 100%;
-  height: auto;
+div {
+  border: 1px solid;
+  max-width: 8.5in;
+  -margin-left: 1in;
+  -margin-right: 1in;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-figcaption {
-  visibility: hidden;
+section {
+  margin-left: 1in;
+  margin-right: 1in;
+  font-family: "Times New Roman", "Arial", sans-serif;
 }
 
-.grid nav ul {
-  position: fixed;
-  left: 100px;
-  top: 300px;
-  color: #fff;
-  font-weight: bold;
-  text-align: right;
-  overflow: auto;
-  font-family: "roboto", "Arial", sans-serif;
+section p {
+  font-size: 12pt;
+}
+
+section li a {
+  color: black;
+}
+section li a:visited {
+  color: black;
+}
+
+section li {
+  list-style-type: square;
+  max-width: 500px;
+  padding: 3px;
+  list-style-position: outside;
+}
+
+nav {
+  background-color: rgb(50,50,50);
+  max-width: 7.52in;
+  -margin-left: 1in;
+  padding-left: 1in;
 }
 
 nav li {
   list-style: none;
-  font-size: auto;
-  padding: 10px;
-  background-color: #fff;
-  opacity: 75%;
+  border-left: 0.5px dashed rgb(255,255,255);
+  padding: 5px;
+  display:inline-block;
 }
 
-nav li a:link {
-  color: rgb(0,0,0);
-  font-weight: bold;
+nav li a {
+  color: white;
 }
+
+nav li:hover {
+  background-color: grey;
+}
+
+footer {
+  margin-top: 10px;
+  max-width: 8.5in;
+  text-align: center;
+  margin-bottom: 10px;
+  spacing: 5px;
+  -margin-left: 1in;
+  -margin-right: 1in;
+}
+
+footer li {
+  list-style: none;
+  display:inline-flex;
+}
+
+/*
+ul {
+  list-style: none;
+  display: inline-block;
+  align: left;
+  border: 1px solid;
+  margin-right: 40px;
+}
+
+ul li {
+  padding: 5px;
+  align: left;
+}
+
 
 .grid {
   display: grid;
-  grid-template-columns: 160px auto;
-  border: 1px solid rgb(69,105,159);
-  background: #eee;
-  max-width: 840px;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-style: hidden;
+  column-gap: 5px;
 }
 
-a:link {
-  color: rgb(0,0,255);
+#due {
+  text-align: center;
 }
-
-a:visited {
-  color: rgb(255,0,0);
-}
-
-a:hover {
-  background-color: rgb(255,255,100);
-}
-
-a:active {
-  color: rgb(0,150,100);
-}
-
-table, th, td{
-  border: 1px solid;
-}
+*/
