@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .wrap {
-  max-width: 8.54in;
-  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 body {
@@ -42,7 +42,7 @@ div {
 section {
   margin-left: 1in;
   margin-right: 1in;
-  font-family: "Times New Roman", "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 section p {
@@ -60,7 +60,7 @@ section li {
   list-style-type: square;
   max-width: 500px;
   padding: 3px;
-  list-style-position: outside;
+  -list-style-position: outside;
 }
 
 nav {
@@ -74,7 +74,7 @@ nav li {
   list-style: none;
   border-left: 0.5px dashed rgb(255,255,255);
   padding: 5px;
-  display:inline-block;
+  -display:inline-block;
 }
 
 nav li a {
