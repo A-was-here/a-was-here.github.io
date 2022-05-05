@@ -34,17 +34,28 @@ html {
   color: #aaa;
 }
 
+.side {
+  background-color: #bbb;
+}
+
+figure {
+  -text-align: center;
+
+}
 
 img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 body {
   color: rgb(70,70,70);
   background-color: rgb(240,240,240);
   font-family: "Roboto", "Arial", sans-serif;
-  max-width: 900px;
+  max-width: 1200px;
   align-self: center;
 }
 
@@ -84,7 +95,7 @@ section {
   display: run-in;
   border-bottom: 1px dashed;
   padding-bottom: 10px;
-  padding-top: 50px;
+  padding-top: auto;
 }
 
 section p {
@@ -146,7 +157,7 @@ aside nav li {
 }
 
 aside nav li a {
-  color: white;
+  color: rgb(50,50,50);
   list-style-type: none;
 }
 
