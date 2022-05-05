@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
+html {
+  align: center;
+  margin-left: auto;
+}
+
 .wrap {
   background-color: rgb(50,50,50);
   display: grid;
   grid-template-columns: 1fr 150px;
   position: relative;
+  align-self: center;
 }
 
 
@@ -13,6 +20,18 @@
   -margin-right: 140px;
   -max-width: 700px;
   background-color: #fff;
+  align-self: center;
+}
+
+.back {
+  background-color: inherit;
+  text-align: right;
+}
+
+
+.back a {
+  text-align: right;
+  color: #aaa;
 }
 
 
@@ -25,6 +44,8 @@ body {
   color: rgb(70,70,70);
   background-color: rgb(240,240,240);
   font-family: "Roboto", "Arial", sans-serif;
+  max-width: 900px;
+  align-self: center;
 }
 
 header {
@@ -61,6 +82,9 @@ section {
   font-family: "Roboto", "Arial", sans-serif;
   overflow:visible;
   display: run-in;
+  border-bottom: 1px dashed;
+  padding-bottom: 10px;
+  padding-top: 50px;
 }
 
 section p {
