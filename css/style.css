@@ -7,7 +7,6 @@ html {
 }
 
 .wrap {
-  -background-color: rgb(50,50,50);
   border: none;
   display: grid;
   grid-template-columns: 1fr 200px;
@@ -22,6 +21,19 @@ html {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
+.main a:default {
+  color: rgb(50,50,50);
+}
+
+.main a:hover {
+  color: #0039f7;
+}
+
+.main a:visited {
+  color: #0039f7
+}
+
 
 .back {
   background-color: inherit;
@@ -48,20 +60,7 @@ html {
   border-bottom: 3px double;
   border-top: 3px double;
   padding: 5px;
-  -margin:1px;
 }
-
-
-
-
-/*
-figure {
-  border: 1px solid;
-}
-img:hover {
-  opacity: 0.7;
-}
-*/
 
 figure {
   display: inline-block;
@@ -228,7 +227,7 @@ aside nav li a {
   list-style-type: none;
 }
 
-aside nav li a:visited {
+aside nav li a:hover {
   color: #0039f7;
   list-style-type: none;
 }
