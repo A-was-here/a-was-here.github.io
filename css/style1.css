@@ -36,16 +36,17 @@ html {
 }
 
 .side {
-  background-color: #f4d2b2;
+  background-color: #f2e3c4;
   border: 1px solid;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
 .dis {
-  background-color: #f2e3c4;
+  background-color: #f9f5ed;
   border: none;
   border-bottom: 3px double;
+  border-top: 3px double;
   padding: 5px;
   -margin:1px;
 }
@@ -164,13 +165,13 @@ nav li:hover {
 }
 
 aside {
-  background-color: #f4d2b2;
+  background-color: #f2e3c4;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
 aside nav {
-  background-color: #f4d2b2;
+  background-color: #f2e3c4;
   position: relative;
   -padding-top: 100px;
   padding-left: 5px;
@@ -185,7 +186,7 @@ aside nav ul {
 
 aside nav li {
   list-style-type: none;
-  background-color: #f4d2b2;
+  background-color: #f2e3c4;
   padding: 5px;
 }
 
