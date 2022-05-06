@@ -141,13 +141,13 @@ section p {
 }
 
 section li a:default {
-  color: black;
+  color: rgb (50,50,50);
 }
 section li a {
-  color: black;
+  color: rgb (50,50,50);
 }
 section li a:visited {
-  color: black;
+  color: rgb (50,50,50);
 }
 
 section li {
@@ -176,11 +176,11 @@ nav li {
 }
 
 nav li a:default {
-  color: white;
+  color: #fff;
 }
 
 nav li a {
-  color: white;
+  color: #fff;
 }
 
 nav li:hover {
