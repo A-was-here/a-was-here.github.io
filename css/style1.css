@@ -108,6 +108,14 @@ h1, h2 {
   font-family: "Roboto", "Arial", sans-serif;
 }
 
+.main ul li {
+  list-style: circle;
+}
+
+.main ul title {
+  visibility: visible;
+}
+
 div {
   border: 1px solid;
   padding-bottom: 20px;
@@ -231,7 +239,6 @@ aside nav li a:hover {
   list-style-type: none;
 }
 
-footer li {
-  list-style: none;
-  display:inline-flex;
+footer {
+  padding: 10px;
 }
