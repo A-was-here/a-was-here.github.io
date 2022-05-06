@@ -10,7 +10,7 @@ html {
   -background-color: rgb(50,50,50);
   border: none;
   display: grid;
-  grid-template-columns: 1fr 150px;
+  grid-template-columns: 1fr 200px;
   position: relative;
   align-self: center;
 }
@@ -70,10 +70,17 @@ figure {
 
 figcaption {
   visibility: visible;
+  text-align: center;
+}
+
+.mg img {
+  max-width: 50%;
+  height: auto;
+  padding: 10px;
 }
 
 img {
-  max-width: 50%;
+  max-width: 70%;
   height: auto;
   padding: 10px;
 }
@@ -182,7 +189,6 @@ aside {
 aside nav {
   background-color: #f2e3c4;
   position: relative;
-  -padding-top: 100px;
   padding-left: 5px;
   text-align: left;
   border: none;
@@ -195,6 +201,7 @@ aside nav ul {
 
 aside nav li {
   list-style-type: none;
+  display: list-item;
   background-color: #f2e3c4;
   padding: 5px;
 }
