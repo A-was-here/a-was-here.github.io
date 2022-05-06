@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
-html {
-  align: center;
-  margin-left: auto;
-}
-
 .wrap {
   border: none;
   display: grid;
