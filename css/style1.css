@@ -38,17 +38,27 @@ html {
   background-color: #bbb;
 }
 
-figure {
-  -text-align: center;
 
+
+
+/*
+figure {
+  border: 1px solid;
+}
+img:hover {
+  opacity: 0.7;
+}
+*/
+
+figcaption {
+  visibility: hidden;
 }
 
 img {
   max-width: 70%;
   height: auto;
   float: right;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 body {
@@ -56,17 +66,12 @@ body {
   background-color: rgb(240,240,240);
   font-family: "Roboto", "Arial", sans-serif;
   max-width: 1200px;
-  align-self: center;
+  -align-self: center;
 }
 
 header {
   border-style: groove;
-  -max-width: 8.5in;
-  -margin-left: 1in;
-  -margin-right: 1in;
   background-color: #fff;
-  -border-top-right-radius: 10px;
-  -border-top-left-radius: 10px;
 }
 
 h1, h2 {
@@ -85,6 +90,11 @@ div {
   -background-color: #fff;
   -border-bottom-right-radius: 10px;
   -border-bottom-left-radius: 10px;
+}
+
+section:first-child {
+  border-bottom: none;
+  padding-bottom: 50px;
 }
 
 section {
