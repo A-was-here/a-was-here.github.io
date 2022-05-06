@@ -7,7 +7,8 @@ html {
 }
 
 .wrap {
-  background-color: rgb(50,50,50);
+  -background-color: rgb(50,50,50);
+  border: none;
   display: grid;
   grid-template-columns: 1fr 150px;
   position: relative;
@@ -18,11 +19,14 @@ html {
 .main {
   background-color: #fff;
   align-self: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .back {
   background-color: inherit;
   text-align: right;
+  border: none;
 }
 
 
@@ -32,8 +36,13 @@ html {
 }
 
 .side {
-  background-color: #bbb;
+  background-color: #f4d2b2;
+  border: 1px solid;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
+
+
 
 
 
@@ -66,8 +75,9 @@ body {
 }
 
 header {
-  border-style: groove;
+  border-style:double;
   background-color: #fff;
+  border-radius: 10px;
 }
 
 h1, h2 {
@@ -100,6 +110,9 @@ section p {
   font-size: 12pt;
 }
 
+section li a:default {
+  color: black;
+}
 section li a {
   color: black;
 }
@@ -112,18 +125,28 @@ section li {
 }
 
 nav {
-  background-color: rgb(50,50,50);
-  padding-left: 50px;
+  background-color: #c98a04;
+  border: 1px solid;
+  border-bottom: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-top: 0.1px;
+  padding-bottom: 0.1px;
 }
 
 nav li {
   list-style: none;
   border-left: 0.5px dashed rgb(255,255,255);
-  padding: 5px;
+  padding-right: 5px;
+  padding-left: 3px;
   overflow: hidden;
   display:inline-block;
-  background-color: rgb(50,50,50);
+  font-size: 20px;
 
+}
+
+nav li a:default {
+  color: white;
 }
 
 nav li a {
@@ -131,28 +154,42 @@ nav li a {
 }
 
 nav li:hover {
-  background-color: grey;
+  background-color: #bcb19a;
 }
 
 aside {
-  background-color: #bbb;
+  background-color: #f4d2b2;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 aside nav {
-  background-color: #bbb;
+  background-color: #f4d2b2;
   position: relative;
   padding-top: 100px;
   padding-left: 5px;
+  text-align: left;
+  border: none;
 }
 
 aside nav ul {
   padding-left: 5px;
+  color: #f4d2b2
 }
 
 aside nav li {
   list-style-type: none;
-  background-color: #bbb;
+  background-color: #f4d2b2;
   padding: 5px;
+}
+
+aside nav ul li:hover {
+  background-color: #f4e3d2;
+}
+
+aside nav li a:default {
+  color: rgb(50,50,50);
+  list-style-type: none;
 }
 
 aside nav li a {
@@ -160,6 +197,16 @@ aside nav li a {
   list-style-type: none;
 }
 
+aside nav li a:visited {
+  color: #0039f7;
+  list-style-type: none;
+}
+
+aside nav li a:hover {
+  background-color: #f4e3d2;
+  color: #0039f7;
+  list-style-type: none;
+}
 
 footer li {
   list-style: none;
