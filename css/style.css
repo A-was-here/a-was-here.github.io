@@ -121,7 +121,7 @@ div {
 }
 
 section:first-child {
-  border-bottom: none;
+  border-bottom: 1px solid;
   padding-bottom: 50px;
 }
 
